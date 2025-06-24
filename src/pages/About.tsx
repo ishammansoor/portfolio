@@ -30,7 +30,7 @@ const About = () => {
               <div className="sticky top-24">
                 <div className="rounded-xl overflow-hidden mb-6 aspect-square">
                   <img
-                    src="isham.jpg"
+                    src="/portfolio/isham.jpg"
                     alt="Isham Kalappurackal Mansoor"
                     className="w-full h-full object-cover"
                   />

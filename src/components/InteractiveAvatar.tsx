@@ -55,7 +55,7 @@ const InteractiveAvatar = () => {
         {/* 3D Avatar Image */}
         <div className="relative w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-2 sm:border-4 border-white/20 backdrop-blur-sm">
           <img
-            src="/lovable-uploads/2e3b3313-0edc-4054-a8a9-71b7a98e3618.png"
+            src="/portfolio/avatars.png"
             alt="Isham K. Mansoor - 3D Avatar"
             className="w-full h-full object-cover transform-gpu"
             style={{
