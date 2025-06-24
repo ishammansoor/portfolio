@@ -42,7 +42,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio">
           <div className="min-h-screen flex flex-col">
             <CursorGlow />
             <Navbar />
