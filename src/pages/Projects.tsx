@@ -14,7 +14,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1579621970590-9d624316904b?q=80&w=2070&auto=format&fit=crop",
       tags: ["AI", "Gemini 1.5", "Prompt Engineering"],
       category: "AI",
-      github: "https://github.com/ishammansoor"
+      github: "https://github.com/ishammansoor/RetirementAI"
     },
     {
       title: "NLP Emotion Recognition",
@@ -22,7 +22,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=2070&auto=format&fit=crop",
       tags: ["NLP", "Machine Learning", "Python"],
       category: "NLP",
-      github: "https://github.com/ishammansoor"
+      github: "https://github.com/ishammansoor/AI-and-Machine-Learning/blob/main/Emotional_Analysis.ipynb"
     },
     {
       title: "ML Face Recognition",
@@ -30,7 +30,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1526378787940-576a539ba69d?q=80&w=2034&auto=format&fit=crop",
       tags: ["TensorFlow", "ML", "Computer Vision"],
       category: "ML",
-      github: "https://github.com/ishammansoor"
+      github: "https://github.com/ishammansoor/AI-and-Machine-Learning"
     },
     {
       title: "e-Dirasa Website",

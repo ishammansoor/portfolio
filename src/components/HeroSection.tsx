@@ -58,11 +58,11 @@ const HeroSection = () => {
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+              {/* <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
                 <Link to="/contact">
                   Contact Me
                 </Link>
-              </Button>
+              </Button> */}
             </motion.div>
           </motion.div>
           

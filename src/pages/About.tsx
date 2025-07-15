@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import ExperienceTimeline from "@/components/ExperienceTimeline";
 import ResearchPublications from "@/components/ResearchPublications";
+import Certifications from "@/components/Certifications";
 import EducationSection from "@/components/EducationSection";
 import { Github, Linkedin, Mail } from "lucide-react";
 
@@ -105,6 +106,7 @@ const About = () => {
               <EducationSection />
               <ExperienceTimeline />
               <ResearchPublications />
+              <Certifications />
             </motion.div>
           </div>
         </div>
