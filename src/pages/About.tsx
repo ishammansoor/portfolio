@@ -4,9 +4,30 @@ import ExperienceTimeline from "@/components/ExperienceTimeline";
 import ResearchPublications from "@/components/ResearchPublications";
 import Certifications from "@/components/Certifications";
 import EducationSection from "@/components/EducationSection";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Github, Linkedin, Mail, Download } from "lucide-react";
 
 const About = () => {
+  const handleResumeDownload = async () => {
+    try {
+      const response = await fetch('/portfolio/resume/Isham_Resume.pdf');
+      if (!response.ok) throw new Error('Download failed');
+      
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Isham_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Error downloading resume:', error);
+      // Fallback to direct link
+      window.location.href = '/portfolio/resume/Isham_Resume.pdf';
+    }
+  };
   return (
     <div className="pt-24 pb-16">
       <div className="container mx-auto px-4">
@@ -67,6 +88,11 @@ const About = () => {
                     <Mail size={20} />
                   </a>
                 </div>
+                
+                <Button onClick={handleResumeDownload} className="w-full mb-6 group">
+                  <Download className="mr-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
+                  Download Resume
+                </Button>
                 
                 <div className="bg-secondary p-4 rounded-lg">
                   <h3 className="font-semibold mb-2">Contact Information</h3>

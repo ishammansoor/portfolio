@@ -11,25 +11,25 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const featuredProjects = [
     {
-      title: "AIRE (Retirement AI)",
+      title: "VT Hacks 13 (Winner) - FACEAID",
+      description: "Led a team of developers in building FaceAID, a real-time AI medical data access app recognized with Best Hack Supporting Diversity & Inclusion at VTHacks 13 (2025) for advancing equitable emergency healthcare technology.",
+      image: "https://images.unsplash.com/photo-1576091160550-112173f7f869?q=80&w=2070&auto=format&fit=crop",
+      tags: ["AI", "Healthcare", "Real-time"],
+      github: "https://github.com/ishammansoor"
+    },
+    {
+      title: "AIRE (AI Retirement Engineer)",
       description: "Developed during VTHacks, this project uses the Gemini 1.5 Flash generative model to create personalized retirement plans, increasing planning accuracy by 40% compared to traditional systems.",
       image: "https://images.unsplash.com/photo-1579621970590-9d624316904b?q=80&w=2070&auto=format&fit=crop",
-      tags: ["AI", "Gemini 1.5", "Prompt Engineering"],
+      tags: ["Python", "Gemini 1.5 Flash", "API Integration"],
       github: "https://github.com/ishammansoor"
     },
     {
       title: "NLP Emotion Recognition",
-      description: "Natural language processing models for emotion recognition, sarcasm detection, and heart attack prediction using Kaggle datasets.",
+      description: "Natural language processing models for emotion recognition and sarcasm detection using advanced ML techniques on Kaggle datasets.",
       image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=2070&auto=format&fit=crop",
-      tags: ["NLP", "Machine Learning", "Python"],
-      github: "https://github.com/ishammansoor"
-    },
-    {
-      title: "ML Face Recognition",
-      description: "Leveraged TensorFlow prebuilt models to create facial recognition, pose detection, and object detection projects.",
-      image: "https://images.unsplash.com/photo-1526378787940-576a539ba69d?q=80&w=2034&auto=format&fit=crop",
-      tags: ["TensorFlow", "ML", "Computer Vision"],
-      github: "https://github.com/ishammansoor"
+      tags: ["Python", "NLP", "Machine Learning"],
+      github: "https://github.com/ishammansoor/AI-and-Machine-Learning/blob/main/Emotional_Analysis.ipynb"
     }
   ];
 

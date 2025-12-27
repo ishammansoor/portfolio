@@ -15,19 +15,19 @@ const SkillsSection = () => {
   const skillCategories: SkillCategory[] = [
     {
       name: "Languages",
-      skills: ["Java", "Python", "JavaScript", "TypeScript", "C", "C++"]
+      skills: ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "Ruby", "Haskell"]
     },
     {
-      name: "Web & Mobile",
-      skills: ["React", "Node.js", "HTML", "CSS"]
+      name: "Frameworks & Libraries",
+      skills: ["Node.js/Express", "React", "React Native", "FastAPI", "Flask", "TensorFlow", "PyTorch", "Tailwind CSS"]
     },
     {
-      name: "Data & AI",
-      skills: ["TensorFlow", "PyTorch", "NLP", "Machine Learning"]
+      name: "Technologies & Database",
+      skills: ["Git", "AWS", "GCP", "MongoDB", "SQL", "Firebase", "Vue.js"]
     },
     {
-      name: "Tools & Others",
-      skills: ["Git", "Firebase", "MongoDB"]
+      name: "Specializations",
+      skills: ["Machine Learning", "NLP", "Cloud Computing", "Agile Development", "Data Structures", "Algorithms"]
     }
   ];
   

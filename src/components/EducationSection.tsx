@@ -23,32 +23,53 @@ const EducationSection = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0 }}
         transition={{ duration: 0.7, delay: 0.1 }}
+        className="glass-card p-6 rounded-lg mb-6"
+      >
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
+          <h3 className="text-xl font-display font-bold text-foreground">Old Dominion University</h3>
+          <span className="text-accent font-semibold">Expected Spring 2028</span>
+        </div>
+        
+        <p className="text-primary font-medium mb-2">Master of Science in Computer Science</p>
+        
+        <div className="space-y-3">
+          <div>
+            <h4 className="font-semibold mb-1">Concentration</h4>
+            <p className="text-sm text-foreground">
+              Natural Language Processing, Machine Learning and Artificial Intelligence
+            </p>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0 }}
+        transition={{ duration: 0.7, delay: 0.15 }}
         className="glass-card p-6 rounded-lg"
       >
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
           <h3 className="text-xl font-display font-bold text-foreground">Virginia Tech</h3>
-          <span className="text-accent font-semibold">Expected Fall 2025</span>
+          <span className="text-accent font-semibold">Graduated - Fall 2025</span>
         </div>
         
-        <p className="text-primary font-medium mb-2">Bachelor of Computer Science</p>
+        <p className="text-primary font-medium mb-2">Bachelor of Science in Computer Science</p>
         <div className="flex items-center mb-4">
-          <span className="text-muted-foreground text-sm">GPA: 3.84/4.00 (Top 13% of university cohort)</span>
+          <span className="text-muted-foreground text-sm">GPA: 3.93/4.00 • Dean's List x4</span>
         </div>
         
         <div className="space-y-3">
           <div>
-            <h4 className="font-semibold mb-1">Coursework</h4>
+            <h4 className="font-semibold mb-1">Relevant Coursework</h4>
             <p className="text-sm text-foreground">
-              Algorithms and Data Structures, Theory of Computation, Software Engineering and Design, Programming
-              Languages & Techniques, Operating Systems, Applied Combinatorics, Intermediate Software Design, Cloud Software
-              Development, Probability and Statistics for Engineers, Intro to Artificial Intelligence.
+              Algorithms and Data Structures, OOP (Java), Software Engineering and Design, Operating Systems, Cloud Software Development, Artificial Intelligence
             </p>
           </div>
           
           <div>
             <h4 className="font-semibold mb-1">Concentration</h4>
             <p className="text-sm text-foreground">
-              Natural Language Processing, Machine Learning and AI
+              Natural Language Processing, Machine Learning and Artificial Intelligence
             </p>
           </div>
         </div>

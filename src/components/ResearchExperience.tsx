@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { FlaskConical, Calendar, MapPin } from "lucide-react";
 
 interface TimelineItemProps {
   title: string;
@@ -62,7 +62,7 @@ const TimelineItem = ({ title, company, location, period, description, index }: 
   );
 };
 
-const ExperienceTimeline = () => {
+const ResearchExperience = () => {
   const experiences = [
     {
       title: "Machine Learning Researcher",
@@ -84,36 +84,6 @@ const ExperienceTimeline = () => {
         "Designed and integrated LLM requests; engineered few-shot prompting strategies to ensure accurate question generation.",
         "Built custom OCR functionality for image-based input, managed secure Firebase Firestore integration with structured database storage, and implemented dynamic template filtering with client-side PDF rendering for flexible exports."
       ]
-    },
-    {
-      title: "Backend Engineer",
-      company: "MindTide.ai",
-      location: "California",
-      period: "May 2025 – Aug 2025",
-      description: [
-        "Developed the backend with FastAPI and MongoDB, designing RESTful APIs and data collections to enable rapid development and seamless client-server communication.",
-        "Secured systems and enhanced code quality via JWT, middleware, and reusable utilities. Collaborated in Agile using GitHub for peer-reviewed, documented contributions."
-      ]
-    },
-    {
-      title: "Lead Software Engineering Intern",
-      company: "Around Entertainment",
-      location: "New Jersey",
-      period: "Jun 2024 – Oct 2024",
-      description: [
-        "Led an 8-member development team for a mobile application, overseeing the entire tech stack for both frontend and backend, and enhanced application scalability by 25%.",
-        "Optimized API calls utilizing Firebase, Mailchimp, and Mapbox, resulting in a 10% reduction in response times and improved data retrieval efficiency.",
-        "Implemented an agile workflow, boosting development cycle efficiency by 25% and ensuring well-structured, documented processes."
-      ]
-    },
-    {
-      title: "Research Engineer",
-      company: "NASA Research (VASTS)",
-      location: "Langley Research Center, VA",
-      period: "Jun 2022 (4 weeks)",
-      description: [
-        "Conducted research on Mars habitat design, utilizing Unity Engine to develop 3D models, improving astronaut spatial planning by 5%."
-      ]
     }
   ];
   
@@ -128,8 +98,8 @@ const ExperienceTimeline = () => {
         transition={{ duration: 0.7 }}
         className="flex items-center gap-2 sm:gap-3 mb-6 sm:mb-8"
       >
-        <Briefcase className="text-primary w-5 h-5 sm:w-6 sm:h-6" />
-        <h2 className="text-xl sm:text-2xl font-display font-bold">Work Experience</h2>
+        <FlaskConical className="text-primary w-5 h-5 sm:w-6 sm:h-6" />
+        <h2 className="text-xl sm:text-2xl font-display font-bold">Research Experience</h2>
       </motion.div>
       
       <div className="ml-1 sm:ml-2">
@@ -141,4 +111,4 @@ const ExperienceTimeline = () => {
   );
 };
 
-export default ExperienceTimeline;
+export default ResearchExperience;

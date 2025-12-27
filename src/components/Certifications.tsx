@@ -3,12 +3,12 @@ import { motion, useInView } from "framer-motion";
 import { Award } from "lucide-react";
 
 const certifications = [
-  { name: "AWS Educate Machine Learning Foundations", issueDate: "2025-06-17" },
-  { name: "AWS Educate Introduction to Cloud 101", issueDate: "2025-05-21" },
-  { name: "AWS Educate Introduction to Generative AI", issueDate: "2025-05-25" },
-  { name: "AWS APAC - Solution Architecture Job Simulation", issueDate: "2025-05-19" },
-  { name: "CompTIA IT Fundamentals+ (ITF+) Certification", issueDate: "2023-05-17" },
-  { name: "Deep Learning Specialization", issueDate: "2024-03-31" },
+  { name: "VT Hacks 13 Winner -- Best Hack Supporting Diversity & Inclusion", issueDate: "2025-09-15" },
+  { name: "AWS Machine Learning Foundations", issueDate: "2025-06-17" },
+  { name: "AWS Generative AI", issueDate: "2025-05-25" },
+  { name: "AWS Cloud 101", issueDate: "2025-05-21" },
+  { name: "Deep Learning Specialization (Coursera)", issueDate: "2024-03-31" },
+  { name: "CompTIA IT Fundamentals+ (ITF+)", issueDate: "2023-05-17" },
 ];
 
 const Certifications = () => {
